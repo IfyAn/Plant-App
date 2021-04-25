@@ -43,21 +43,4 @@ const Stack = createStackNavigator();
       );
     };
     
-//     const AuthenticationStack = () => {
-//       return (
-//         <Stack.Navigator options={{ headerShown: false }} mode='modal'>
-//           <Stack.Screen
-//             options={{ headerShown: false }}
-//             component={AuthStack}
-//             name='Welcome'
-//           />
-//           <Stack.Screen
-//             options={{ headerShown: false }}
-//             component={Tabs}
-//             name='app'
-//           />
-//         </Stack.Navigator>
-//       );
-//     };
-    
 export default AuthStack;
